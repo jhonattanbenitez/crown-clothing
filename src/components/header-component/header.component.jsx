@@ -5,12 +5,12 @@ import './header.styles.scss'
 
 const Header = () => (
     <div className="header">
-        <Link to="/">
+        <Link to="/" className="logo-container">
             <Logo  className="logo"/>
         </Link>
         <div className="options">
-            <Link className="option">SHOP</Link>
-            <Link className="option">CONTACT</Link>
+            <Link className="option" to='/shop'>SHOP</Link>
+            <Link className="option" to='/contact'>CONTACT</Link>
         </div>
     </div>
 )
