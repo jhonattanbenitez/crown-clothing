@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
@@ -30,9 +29,9 @@ const Header = ({ currentUser, hidden }) => (
       </OptionLink>
       {console.log(currentUser)}
       {currentUser ? (
-        <OptionLink onClick={() => auth.signOut()}>
+        <OptionDiv onClick={() => auth.signOut()}>
           SIGN OUT
-        </OptionLink>
+        </OptionDiv>
       ) : (
         <OptionLink to="/signin">
           SIGN IN

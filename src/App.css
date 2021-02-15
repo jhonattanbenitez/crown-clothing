@@ -1,11 +1,12 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    padding: 20px 30px;
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 30px;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
